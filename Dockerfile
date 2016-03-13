@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7
 
 COPY src /tmp/src
 RUN yum localinstall -y /tmp/src/*.rpm
