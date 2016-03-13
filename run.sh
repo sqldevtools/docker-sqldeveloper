@@ -2,7 +2,10 @@
 
 CONFIG=~/.sqldeveloper
 
-mkdir "$DATA"
+if [ ! -d "$CONFIG" ]
+then
+	mkdir "$CONFIG"
+fi
 
 XSOCK=/tmp/.X11-unix
 XAUTH=/tmp/.docker.xauth
