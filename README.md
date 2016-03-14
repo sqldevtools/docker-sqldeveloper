@@ -23,3 +23,5 @@ to start SQL Developer using your local X-Server use the script
 ```
 ./run.sh
 ```
+
+if you want to use TNS for configuring connections, place your TNS file in /etc/tnsnames.ora
